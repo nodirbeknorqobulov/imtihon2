@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container .header ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  list-style: none;
+}
+.container .header ul h1 {
+  font-family: "Rancho", cursive;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -30px;
+}
+.container .head {
+  display: flex;
+  width: 100%;
+}
+.container .head .h-left {
+  font-size: 48px;
+  margin-left: 15px;
+}
+.container .head .h-left i {
+  margin-right: 20px;
+}
+.container .head .h-left a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.container .head .h-left button {
+  color: #fff;
+  background-color: #F4A261;
+  border: 0;
+  padding: 13px 38px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 0px #F4A261;
+}
+.container .head .h-left span {
+  color: #2A9D8F;
+}
+.container .head .h-right {
+  margin-left: 800px;
+  margin-top: -400px;
+}
+.container .page-two {
+  display: flex;
+  flex-direction: column;
+}
+.container .page-two .t-head {
+  display: flex;
+  justify-content: center;
+  font-family: "Rancho", cursive;
+}
+.container .page-two .t-head h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+.container .page-two .t-head p {
+  color: #E76F51;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 100px;
+}
+.container .page-two .t-left {
+  margin-left: 150px;
+}
+.container .page-two .t-left .one {
+  font-family: "Rancho", cursive;
+  color: #E76F51;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid #000;
+  width: 350px;
+}
+.container .page-two .t-left h1 {
+  font-family: sans-serif;
+  font-size: 42px;
+}
+.container .page-two .t-left .two {
+  font-size: 18px;
+  color: #333;
+}
+.container .page-two .t-left button {
+  padding: 8px 42px;
+  border-radius: 15px;
+  border: 0;
+  background: #2A9D8F;
+  color: #fff;
+}
+.container .page-two .t-right img {
+  margin-left: 800px;
+  margin-top: -300px;
+}
+.container .page-two .th-right {
+  margin-left: 800px;
+}
+.container .page-two .th-right .one {
+  font-family: "Rancho", cursive;
+  color: #E76F51;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid #000;
+  width: 350px;
+}
+.container .page-two .th-right h1 {
+  font-family: sans-serif;
+  font-size: 42px;
+}
+.container .page-two .th-right .two {
+  font-size: 18px;
+  color: #333;
+}
+.container .page-two .th-right button {
+  padding: 8px 42px;
+  border-radius: 15px;
+  border: 0;
+  background: #2A9D8F;
+  color: #fff;
+}
+.container .page-two .th-left {
+  margin-left: 150px;
+  margin-top: -300px;
+}
+.container .page-three .head {
+  display: flex;
+  justify-content: center;
+  font-family: "Rancho", cursive;
+}
+.container .page-three .head h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+.container .page-three .head p {
+  color: #E76F51;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 100px;
+}
+.container .page-three .left {
+  display: flex;
+  justify-content: space-around;
+}
+.container .page-three .left img {
+  margin-top: 100px;
+  border-bottom: 1px solid #000;
+}
+.container .page-three .left h1 {
+  margin-left: 50px;
+}
+.container .page-four .head {
+  font-family: "Rancho", cursive;
+}
+.container .page-four .head h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+.container .page-four .head p {
+  color: #E76F51;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 100px;
+}
+.container .page-four .center {
+  display: flex;
+  justify-content: space-around;
+}
+.container .page-five .bcg {
+  margin-top: 57px;
+}
+.container .page-six {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 205px;
+  width: 1440px;
+  height: 616px;
+  background: #333;
+}
+.container .page-six .start img {
+  margin-top: 59px;
+}
+.container .page-six .start p {
+  margin-top: 45px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #fff;
+}
+.container .page-six .start i {
+  font-size: 50px;
+  color: #fff;
+  margin-right: 62px;
+}
+.container .page-six .center p {
+  color: #fff;
+}
+.container .page-six .center i {
+  color: #fff;
+  font-size: 20px;
+}
+.container .page-six .center .a {
+  color: #E76F51;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 100px;
+  border-bottom: 1px solid #fff;
+}
+.container .page-six .end i {
+  color: #fff;
+  font-size: 20px;
+}
+.container .page-six .end p {
+  color: #fff;
+}
+.container .page-six .end .a {
+  color: #E76F51;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 100px;
+  border-bottom: 1px solid #fff;
+}
+.container .page-six .end img {
+  margin: 15px;
+}/*# sourceMappingURL=style.css.map */
